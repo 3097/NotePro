@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.notepro.CreateNote" >
+    
+    <item 
+        android:id="@+id/action_change_color"
+        android:orderInCategory="100"
+        android:icon="@drawable/equilazer"
+        android:title="@string/change_color"
+        app:showAsAction="ifRoom"/>
+	<item 
+	    android:id="@+id/action_take_picture"
+	    android:orderInCategory="101"
+	    android:title="@string/take_picture"
+	    android:icon="@drawable/camera1"
+	    app:showAsAction="ifRoom"/>
+    <item 
+        android:id="@+id/action_set_alarm"
+        android:orderInCategory="102"
+        android:title="@string/alarm_clock"
+        android:icon="@drawable/alarm_clock"
+        app:showAsAction="ifRoom"/>
+</menu>
